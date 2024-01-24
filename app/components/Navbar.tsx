@@ -4,6 +4,7 @@ import { useState } from "react";
 import DesktopNavbarLink from "./DesktopNavbarLink";
 import Hamburger from "./Hamburger";
 import NavbarDropdown from "./NavbarDropdown";
+import Logo from "./Logo";
 
 export default function Navbar() {
     const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -15,9 +16,7 @@ export default function Navbar() {
     return (
         <nav className="container mx-auto p-6">
             <div className="flex flex-row justify-between items-center z-0 text-white">
-                <div className="font-black text-2xl">
-                    <span>dresnite.</span>
-                </div>
+                <Logo />
 
                 <div className="hidden md:flex md:space-x-8">
                     <DesktopNavbarLink title="Home" href="#"/>
