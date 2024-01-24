@@ -6,14 +6,14 @@ export default function Projects() {
           Projects
         </h2>
 
-        <button className="hidden md:block border-2 border-black py-2 w-44 hover:font-bold">
+        <a className="hidden md:block border-2 border-black py-2 w-44 hover:font-bold text-center" href="https://github.com/dresnite" target="_blank">
           See All
-        </button>
+        </a>
       </div>
 
       <div className="flex flex-col lg:items-start">
         <div className="w-full flex flex-col items-center lg:items-start lg:flex-row space-y-36 lg:space-y-0 lg:justify-between">
-        <a href="https://github.com/dresnite/minimalist-portfolio">
+        <a href="https://github.com/dresnite/minimalist-portfolio" target="_blank">
             <div className="group bg-gray-600 w-80 h-80 lg:w-96 lg:h-80 relative">
               <img
                 src="/portfolio2.png"
@@ -34,7 +34,7 @@ export default function Projects() {
             </div>
           </a>
 
-          <a href="https://github.com/dresnite/boxing-website">
+          <a href="https://github.com/dresnite/boxing-website" target="_blank" >
             <div className="group bg-gray-600 w-80 h-80 lg:w-96 lg:h-80 relative">
               <img
                 src="/boxing-website.png"
@@ -54,7 +54,7 @@ export default function Projects() {
             </div>
           </a>
 
-          <a href="https://github.com/dresnite/skyblock">
+          <a href="https://github.com/dresnite/skyblock" target="_blank">
             <div className="group bg-gray-600 w-80 h-80 lg:w-96 lg:h-80 relative">
               <img
                 src="/skyblock.jpeg"

@@ -7,8 +7,8 @@ export default function Hero() {
                 <p>Life&apos;s too short to take it slow, so I stay building fast.</p>
 
                 <div className="pt-4 flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-10">
-                    <button className="border-2 border-white bg-white text-black py-2 w-44 hover:font-bold">Contact me</button>
-                    <button className="border-2 border-white py-2 w-44 hover:font-bold">Browse projects</button>
+                    <a className="border-2 border-white bg-white text-black py-2 w-44 hover:font-bold" href="https://form.typeform.com/to/oEwAVGcN" target="_blank">Contact me</a>
+                    <a className="border-2 border-white py-2 w-44 hover:font-bold" href="#projects">Browse projects</a>
                 </div>
             </div>
         </section>
