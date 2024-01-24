@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.item-gradient {
+  @apply absolute top-0 bottom-0 right-0 left-0 group-hover:bg-gradient-to-b group-hover:from-gray-50 group-hover:to-gray-300 group-hover:opacity-70;
+}
+
 .header-background {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("/fast.jpg");
   background-repeat: no-repeat;

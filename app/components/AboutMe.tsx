@@ -1,14 +1,14 @@
 export default function AboutMe() {
   return (
-    <section id="about-me" className="mt-20 container mx-auto">
+    <section id="about-me" className="my-20 container mx-auto">
       <div className="relative flex flex-col items-center md:items-start">
-        <h2 className="font-bold w-100 mt-10 mb-12 font-sans text-2xl text-center text-gray-900 uppercase md:mt-0 md:text-left">
+        <h2 className="w-100 mt-10 mb-12 text-3xl text-center uppercase md:mt-0 md:text-left">
           About me
         </h2>
 
-        <img src="/me.jpeg" alt="" className="max-w-[35rem]" />
+        <img src="/me.jpeg" alt="" className="max-w-[35rem] rounded-sm" />
 
-        <div className="px-10 max-w-3/4 md:max-w-100 md:ml-28 md:py-5 md:top-48 md:left-80 bg-white md:absolute">
+        <div className="px-10 max-w-3/4 md:max-w-100 md:ml-28  md:top-48 md:left-80 bg-white md:absolute">
           <div className="mt-16 mb-12 max-w-[45rem] mx-auto flex flex-col gap-3">
             <p>
               I’m Andrés. A 22-year old software developer, maker and problem

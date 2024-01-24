@@ -12,6 +12,7 @@ export default function Home() {
       </div>
       
       <AboutMe />
+      <Projects />
     </div>
   );
 }
