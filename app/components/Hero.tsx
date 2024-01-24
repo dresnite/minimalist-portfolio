@@ -2,7 +2,7 @@ export default function Hero() {
     return (
         <section id="hero" className="container mx-auto">
             <div className="text-white text-center flex flex-col items-center mt-28 pb-36 justify-center space-y-5">
-                <p className="text-lg">Hey, I'm Andrés 👋</p>
+                <p className="text-lg">Hey, I&apos;m Andrés 👋</p>
                 <h1 className="font-black text-8xl">The Fullstack Developer</h1>
                 <p>Life&apos;s too short to take it slow, so I stay building fast.</p>
 

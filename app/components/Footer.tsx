@@ -22,7 +22,7 @@ export default function Footer() {
 
                 <div className="flex flex-col space-y-3">
                     <p className="font-bold">Other</p>
-                    <a href="">What's next?</a>
+                    <a href="">What&apos;s next?</a>
                     <a href="">My agenda</a>
                 </div>
 
