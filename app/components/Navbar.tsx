@@ -26,8 +26,8 @@ export default function Navbar() {
                     <DesktopNavbarLink title="Blog" href="#"/>
                 </div>
 
-                <div className="hidden md:flex mb-2">
-                    <a href="">Contact me</a>
+                <div className="hidden md:flex">
+                    <DesktopNavbarLink title="Contact me" href="#"/>
                 </div>
 
                 <Hamburger isOpen={isDropdownOpen} onClick={toggleDropdown} />
