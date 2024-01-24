@@ -6,7 +6,7 @@ export default function AboutMe() {
           About me
         </h2>
 
-        <img src="/me.jpeg" alt="" className="max-w-[35rem] rounded-sm" />
+        <img src="/me.jpeg" alt="" className="max-w-100 md:max-w-[35rem] rounded-sm" />
 
         <div className="px-10 max-w-3/4 md:max-w-100 md:ml-28  md:top-48 md:left-80 bg-white md:absolute">
           <div className="mt-16 mb-12 max-w-[45rem] mx-auto flex flex-col gap-3">
