@@ -34,7 +34,7 @@ export default function Projects() {
             </div>
           </a>
 
-          <a href="http://toagym.es" target="_blank" >
+          <a href="https://toagym.es" target="_blank" >
             <div className="group bg-gray-600 w-80 h-80 lg:w-96 lg:h-80 relative">
               <img
                 src="/boxing-website.png"
