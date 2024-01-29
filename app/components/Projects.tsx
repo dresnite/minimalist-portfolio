@@ -22,8 +22,8 @@ export default function Projects() {
           <a href="https://paycraft.gg" className="group" target="_blank">
             <img src="/paycraft.png" className="w-100 max-w-1/2 group-hover:scale-110 duration-200" alt="Paycraft website screenshot" />
           </a>
-          <p className="font-bold">Game monetization platform.</p>
-          <p>Built with Next.js, Tailwind, TypeScript, MongoDB, PHP and Java.</p>
+          <p className="font-bold">Game monetization platform. (Current Project)</p>
+          <p>Built with Next.js, Node.js, Tailwind, TypeScript, MongoDB, PHP and Java.</p>
           <p></p>
         </div>
 
