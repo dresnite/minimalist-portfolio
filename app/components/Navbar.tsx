@@ -26,7 +26,6 @@ export default function Navbar() {
                     <DesktopNavbarLink title="Home" href="#navbar"/>
                     <DesktopNavbarLink title="About me" href="#about-me"/>
                     <DesktopNavbarLink title="Projects" href="#projects"/>
-                    <DesktopNavbarLink title="Resume" href="https://docs.google.com/presentation/d/e/2PACX-1vRnBBvi_V4VEoe325TeegMMrVmwJ-ZN3DxlThGhNA0LdUq9yw_Ob45RB_KDkSSQSeqJjdMWQk6re5GF/pub?start=false&loop=false&delayms=3000" targetBlank></DesktopNavbarLink>
                     <DesktopNavbarLink title="Blog" href="https://blog.dresnite.com" targetBlank />
                 </div>
 
