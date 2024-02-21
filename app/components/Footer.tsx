@@ -23,7 +23,6 @@ export default function Footer() {
                 <div className="flex flex-col space-y-3">
                     <p className="font-bold">Other</p>
                     <a href="https://docs.google.com/document/d/e/2PACX-1vRO33nRfFWMJ0IHbzIBA7DeYKnNbplmEZhZiuKFpoWbyy8vV5mj5eIfg0ot59tDOcJUDwsZyyq4rl7K/pub" target="_blank">What&apos;s next?</a>
-                    <a href="https://docs.google.com/document/d/e/2PACX-1vSVk-fyw9RGLxln65WyClJG7-8Fp4t8OxtCSDjxW4iqELxN8ZLjT8xitfpz3hfi9o9UwyWyVbeVmJbG/pub" target="_blank">My agenda</a>
                 </div>
 
 
