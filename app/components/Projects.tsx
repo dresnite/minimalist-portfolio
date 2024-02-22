@@ -28,7 +28,7 @@ export default function Projects() {
         </div>
 
         <div className="text-center">
-          <a href="https://pigify.io" className="group" target="_blank">
+          <a href="https://pigify-web.vercel.app/" className="group" target="_blank">
             <Image width={2886} height={1806} src="/pigify.png" className="w-100 max-w-1/2 group-hover:scale-110 duration-200" alt="Paycraft website screenshot" />
           </a>
           <p className="font-bold">Decentralized saving platform.</p>
