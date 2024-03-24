@@ -8,7 +8,7 @@ export default function Footer() {
 
                 <div className="flex flex-col space-y-3">
                     <p className="font-bold">Web</p>
-                    <a href="#about-me">Back to the top</a>
+                    <a href="#navbar">Back to the top</a>
                     <a href="#about-me">About me</a>
                     <a href="#projects">Projects</a>
                 </div>
