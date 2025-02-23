@@ -62,7 +62,7 @@ export default function Projects() {
             <Image width={2886} height={1806} src="/crisis.png" className="w-100 max-w-1/2 group-hover:scale-110 duration-200" alt="Paycraft website screenshot" />
           </a>
           <p className="font-bold">Fnkg Housing Crisis</p>
-          <p>Built with Cursor. Btw, I'm looking for a place in Amsterdam.</p>
+          <p>Built with Cursor. Btw, I&apos;m looking for a place in Amsterdam.</p>
           <p></p>
         </div>
       </div>
