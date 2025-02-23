@@ -22,7 +22,7 @@ export default function Projects() {
           <a href="https://paycraft.gg" className="group" target="_blank">
             <Image width={2886} height={1806} src="/paycraft.png" className="w-100 max-w-1/2 group-hover:scale-110 duration-200" alt="Paycraft website screenshot" />
           </a>
-          <p className="font-bold">Game monetization platform. (Current Project)</p>
+          <p className="font-bold">Game monetization platform.</p>
           <p>Built with Next.js, Node.js, Tailwind, TypeScript, MongoDB, PHP and Java.</p>
           <p></p>
         </div>
@@ -55,6 +55,19 @@ export default function Projects() {
           <p>Built with PHP over the PocketMine-MP API.</p>
         </div>
       </div>
+
+      <div className="max-w-xl mx-auto flex flex-col lg:flex-row justify-center lg:justify-between lg:space-x-6 gap-y-16 lg:gap-y-0 mb-16">
+        <div className="text-center">
+          <a href="https://fkng-housing-crisis.vercel.app/" className="group" target="_blank">
+            <Image width={2886} height={1806} src="/crisis.png" className="w-100 max-w-1/2 group-hover:scale-110 duration-200" alt="Paycraft website screenshot" />
+          </a>
+          <p className="font-bold">Fnkg Housing Crisis</p>
+          <p>Built with Cursor. Btw, I'm looking for a place in Amsterdam.</p>
+          <p></p>
+        </div>
+      </div>
+
+      
     </section>
   );
 }
